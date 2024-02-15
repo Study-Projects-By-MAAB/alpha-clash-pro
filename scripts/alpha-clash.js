@@ -79,12 +79,11 @@ function play() {
 
     setTextElementValueById('currentLife', 5)
     setTextElementValueById('currentScore', 0)
-
+    setTextElementValueById('gameScore', 0)
     continueGame()
 }
 
 function gameOver() {
     hideElementById('playGround')
     showElementById('finalScore')
-
 }
